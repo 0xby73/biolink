@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<body>	  
+<audio autoplay>
+<source src="crimewave.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<script>
+var audioElement = document.querySelector('audio'); // select the audio element
+audioElement.volume = 0.2; // set the volume to whatever u want 
+</script>
+<div class="line"></div>
+<img class="pfp" src="pfp.png">
+<h1 id="triptych-name">TRIPTYCH</h1>
+<div class="dropdown-content">
+<a href="https://t.me/SYS700" target="_blank" rel="noopener noreferrer"><img id="telegram-hover" src="telegram-white.png"></a>
+<a href="https://github.com/0xby73" target="_blank" rel="noopener noreferrer"><img class="github" src="github-white.png"></a>
+<a href="https://discord.com/users/1175870538439200769" target="_blank" rel="noopener noreferrer"><img class="discord" src="discord-white.png">
+<p class="quote">A chain is only as strong as its weakest link</p>
+<h4 class="aka">aka 0xby73</h4>
+<div id="snow"></div>
+<script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = function(){
+      particlesJS("snow", {
+        "particles": {
+          "number": {
+            "value": 40,
+            "density": {
+              "enable": true,
+              "value_area": 800
+            }
+          },
+          "color": {
+            "value": "#ffffff"
+          },
+          "opacity": {
+            "value": 0.7,
+            "random": false,
+            "anim": {
+              "enable": false
+            }
+          },
+          "size": {
+            "value": 2.3,
+            "random": true,
+            "anim": {
+              "enable": false
+            }
+          },
+          "line_linked": {
+            "enable": false
+          },
+          "move": {
+            "enable": true,
+            "speed": 5,
+            "direction": "bottom",
+            "random": true,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+              "enable": true,
+              "rotateX": 300,
+              "rotateY": 1200
+            }
+          },
+          "interactivity": {
+            "events": {
+              "onhover": {
+                "enable": false
+              },
+              "onclick": {
+                "enable": false
+              },
+              "resize": false
+            }
+          },
+          "retina_detect": true
+        }
+      });
+    }
+    document.head.append(script);
+  });
+</script>
+</body>
+</head>
+</html> 
